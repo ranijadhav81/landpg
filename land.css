@@ -1,0 +1,83 @@
+*{
+    padding: 0%;
+    margin:0%
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+     url(flower.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+nav{
+    height: 100px;
+    width: 100%;
+    
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: aliceblue;
+
+}
+.menu a{
+    text-decoration: none;
+    color:rgb(242, 234, 234);
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.register a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 20px;
+    background:indianred;
+    border-color: black;
+    border-radius:8px;
+    transition: 0.4s;
+}
+.register a:hover{
+    background: transparent;
+    border:1px solid indianred;
+}
+.tt{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+}
+.tt span{
+    letter-spacing: 5px;
+    color: aliceblue;
+    
+
+}
+.tt h1{
+    font-size: 3.5em;
+    line-height: 0%;
+}
+.tt a{
+    text-decoration: none;
+    background: indianred;
+    color: aliceblue;
+    padding: 10px 10px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+    line-height: 0%;
+}
+.tt a:hover{
+    background: transparent;
+    border:1px solid indianred;
+}
